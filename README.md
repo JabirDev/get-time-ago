@@ -23,13 +23,13 @@ dependencies {
 It's very simple to use, you just need to passing a date. This an example to get time ago.
 
 ```java
-        TextView tv = findViewById(R.id.textView);
-        @SuppressLint("SimpleDateFormat") SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'+'");
-        try {
-            Date date = df.parse("2019-12-17T14:33:00+");
-            tv.setText(TimeAgo.get(date));
-        } catch (ParseException e) {
-            e.printStackTrace();
-            tv.setText(e.getMessage());
-        }
+TextView tv = findViewById(R.id.textView);
+@SuppressLint("SimpleDateFormat") SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'+'");
+try {
+   Date date = df.parse("2019-12-17T14:33:00+");
+   tv.setText(TimeAgo.get(date));
+} catch (ParseException e) {
+   e.printStackTrace();
+   tv.setText(e.getMessage());
+}
 ```
