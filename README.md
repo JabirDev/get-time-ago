@@ -17,7 +17,7 @@ dependencies {
 ```
 
 ## Screenshot
-![get-time-ago](https://raw.github.com/JabirDev/get-time-ago/master/device-2019-12-17-145104.png.png)
+![get-time-ago](https://raw.githubusercontent.com/JabirDev/get-time-ago/master/device-2019-12-17-145104.png)
 
 ## Usage
 
